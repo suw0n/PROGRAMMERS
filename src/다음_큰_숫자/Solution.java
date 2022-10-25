@@ -1,4 +1,4 @@
-package Test;
+package 다음_큰_숫자;
 
 class Solution {
 
