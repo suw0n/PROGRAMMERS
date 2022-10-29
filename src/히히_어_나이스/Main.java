@@ -24,9 +24,12 @@ public class Main {
         Solution s1 = new Solution();
         int[] a = {1, 5, 2, 6, 3, 7, 4};
         int[][] c = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
+        Arrays.sort(a);
+        int z = a.length;
 
         System.out.println(s1.solution(a, c));
         Stack<Character> s = new Stack<>();
+        List<Integer> l = new ArrayList<>();
     }
 
 }
